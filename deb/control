@@ -1,0 +1,15 @@
+Package: tcping
+Version: VERSION
+Section: net
+Priority: optional
+Architecture: all
+Depends: 
+Maintainer: Marc Kirchner <mail@marc-kirchner.de>
+Description: non-blocking test for open ports
+    Tcping perfoms a non-blocking connection attempt to a specified
+    host/port combination, allowing user-defined timeouts.
+    This is useful in e.g. shell scripts to avoid waiting for a TCP timeout
+    during connecting with standard TCP tools (ssh, wget, etc...)
+    .
+    This package ist currently marked production/stable, you can
+    find more information at https://github.com/mkirchner/tcping
